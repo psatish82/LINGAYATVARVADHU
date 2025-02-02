@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeartMatch - Matrimony Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">HeartMatch</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profiles">Profiles</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="login-btn">Login</button>
+                <button class="register-btn">Register</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Find Your Perfect Match</h1>
+            <p>Join thousands of happy couples who found their soulmate with HeartMatch</p>
+            <button class="cta-btn">Get Started Free</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Why Choose HeartMatch?</h2>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <i class="fas fa-user-shield"></i>
+                <h3>Verified Profiles</h3>
+                <p>All profiles are manually verified for authenticity</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-heart"></i>
+                <h3>Perfect Matches</h3>
+                <p>Advanced matching algorithm for compatible partners</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-lock"></i>
+                <h3>Privacy First</h3>
+                <p>Your privacy is our top priority</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Plans -->
+    <section id="membership" class="membership">
+        <h2>Membership Plans</h2>
+        <div class="plan-cards">
+            <div class="plan-card free">
+                <h3>Free Plan</h3>
+                <div class="price">₹0<span>/month</span></div>
+                <ul>
+                    <li>Basic Profile Creation</li>
+                    <li>Browse Profiles</li>
+                    <li>Limited Searches</li>
+                    <li>Basic Matching</li>
+                </ul>
+                <button class="plan-btn">Start Free</button>
+            </div>
+            <div class="plan-card premium">
+                <h3>Premium Plan</h3>
+                <div class="price">₹999<span>/month</span></div>
+                <ul>
+                    <li>Advanced Profile Options</li>
+                    <li>Unlimited Searches</li>
+                    <li>Direct Messaging</li>
+                    <li>Priority Support</li>
+                    <li>Video Calls</li>
+                </ul>
+                <button class="plan-btn">Go Premium</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Register</h2>
+            <form id="registerForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About HeartMatch</h4>
+                <p>Trusted matrimony service helping people find their perfect life partner.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profiles">Profiles</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: info@heartmatch.com</p>
+                <p>Phone: +91 1234567890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 HeartMatch. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
